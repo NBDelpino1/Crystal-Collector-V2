@@ -11,9 +11,12 @@ h2 {
     color: #365895;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+p {
+    color: #2d6aad;
+}
+
+#footcolor {
+    color: #c51f1f;
 }
 
 .lkynumscore {
@@ -25,14 +28,11 @@ img {
 }
 
 .well-lg {
-    padding:0px;
+    padding:0;
     background-color: #ffcc01;
 }
 
-p {
-    color: #2d6aad;
-}
-
-#footcolor {
-    color: #c51f1f;
+img {
+    max-width: 100%;
+    height: auto;
 }
