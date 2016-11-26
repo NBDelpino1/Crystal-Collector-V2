@@ -1,13 +1,14 @@
 body {
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Slackey', cursive;
 }
 
-h1, h2 {
-    font-family: 'Changa One', cursive;
+h1 {
+    color: #c51f1f;
+    font-size:50px;
 }
 
-#stats, #images {
-    min-height:300px;
+h2 {
+    color: #365895;
 }
 
 img {
@@ -21,4 +22,17 @@ img {
 
 .winloose {
     font-size: 50px;
+}
+
+.well-lg {
+    padding:0px;
+    background-color: #ffcc01;
+}
+
+p {
+    color: #2d6aad;
+}
+
+#footcolor {
+    color: #c51f1f;
 }
