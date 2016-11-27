@@ -20,11 +20,11 @@ p {
 }
 
 .lkynumscore {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .winloose {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .well-lg {
@@ -32,7 +32,17 @@ p {
     background-color: #ffcc01;
 }
 
+.well {
+    border-color: white;
+    background-color: #8c9bb8;
+}
+
 img {
     max-width: 100%;
     height: auto;
 }
+img:hover {
+    transform: scale(1.25);
+}
+
+

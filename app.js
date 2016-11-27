@@ -3,9 +3,9 @@
 
 // Pokemon Variables
 var pokemon = {
-    bulbasaur:
+    pickachu:
     {
-        name: "Suicune",
+        name: "Pickachu",
         value: 0
     },
     charmander:
@@ -13,14 +13,14 @@ var pokemon = {
         name: "Charmander",
         value: 0
     },
-    squirtle:
+    blastoise:
     {
-        name: "Squirtle",
+        name: "Blastoise",
         value: 0
     },
-    suicune:
+    caterpie:
     {
-        name: "Suicune",
+        name: "Caterpie",
         value: 0
     }
 };
@@ -52,10 +52,10 @@ var startGame = function() {
     targetScore = getRandom(19, 120);
 
     // Set different values for each of the crystals (between 1 and 12)
-    pokemon.bulbasaur.value = getRandom(1, 12);
-    pokemon.squirtle.value 	= getRandom(1, 12);
+    pokemon.pickachu.value = getRandom(1, 12);
+    pokemon.blastoise.value 	= getRandom(1, 12);
     pokemon.charmander.value = getRandom(1, 12);
-    pokemon.suicune.value = getRandom(1, 12);
+    pokemon.caterpie.value = getRandom(1, 12);
 
     // Change the HTML to reflect all of these changes
     $("#yourScore").html(currentScore);
@@ -65,7 +65,7 @@ var startGame = function() {
     // Testing Console
     console.log("-----------------------------------")
     console.log("Target Score: " + targetScore);
-    console.log("Suicune: " + pokemon.bulbasaur.value + " | Charmander: " + pokemon.charmander.value +  " | Squirtle: " + pokemon.squirtle.value + " | Suicune: " + pokemon.suicune.value);
+    console.log("Pickachu: " + pokemon.pickachu.value + " | Charmander: " + pokemon.charmander.value +  " | Blastoise: " + pokemon.blastoise.value + " | Caterpie: " + pokemon.caterpie.value);
     console.log("-----------------------------------")
 }
 
@@ -128,18 +128,18 @@ var checkWin = function() {
 // Starts the Game the First Time.
 startGame();
 
-$("#bulbasaur").click(function() {
-    addValues(pokemon.bulbasaur);
+$("#pickachu").click(function() {
+    addValues(pokemon.pickachu);
 });
 
-$("#squirtle").click(function() {
-    addValues(pokemon.squirtle);
+$("#blastoise").click(function() {
+    addValues(pokemon.blastoise);
 });
 
 $("#charmander").click(function() {
     addValues(pokemon.charmander);
 });
 
-$("#suicune").click(function() {
-    addValues(pokemon.suicune);
+$("#caterpie").click(function() {
+    addValues(pokemon.caterpie);
 });
