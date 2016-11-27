@@ -3,10 +3,6 @@
 ### Overview
 In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
 
-### Remember
-
-You will be fully capable of doing this homework by the end of the Mon/Tue class.
-
 ### Before You Begin
 
 1. Create a new GitHub repo called `week-4-game`, then clone it to your computer.
