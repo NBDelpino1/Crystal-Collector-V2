@@ -1,0 +1,1 @@
+<?php include_once("landing_view.html"); ?>
