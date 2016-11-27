@@ -15,10 +15,6 @@ p {
     color: #2d6aad;
 }
 
-#footcolor {
-    color: #c51f1f;
-}
-
 .lkynumscore {
     font-size: 80px;
 }
@@ -53,6 +49,9 @@ img:hover {
     .winloose {
         font-size: 15px;
     }
+    p {
+        font-size: 10px;
+    }
     h1 {
         font-size: 25px;
     }
@@ -67,4 +66,10 @@ img:hover {
         max-height: 100%;
     }
 
+}
+
+
+#pagefooter {
+    position:fixed;
+    bottom:0;
 }
