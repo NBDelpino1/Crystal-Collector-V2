@@ -41,6 +41,11 @@ img:hover {
     transform: scale(1.25);
 }
 
+#pagefooter {
+    position:fixed;
+    bottom:0;
+}
+
 /*Make content scale to screen nicely*/
 @media all and (max-width: 599px) and (min-width: 320px) {
     .lkynumscore {
@@ -69,7 +74,3 @@ img:hover {
 }
 
 
-#pagefooter {
-    position:fixed;
-    bottom:0;
-}
