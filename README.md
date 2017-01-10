@@ -1,32 +1,9 @@
-### Overview
-In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
 
-### Before You Begin
+### Challenge: A fun and interactive game for web browsers. App must dynamically update your HTML pages with the jQuery library.
 
-1. Create a new GitHub repo called `week-4-game`, then clone it to your computer.
-
-2. Inside the `week-4-game` folder, create the following: `index.html`, `composer.json` and `index.php`.
-  * Place the appropriate content in the `composer.json` and `index.php` files, so you can deploy your game to Heroku.
-
-3. Still inside the `week-4-game` directory, make a folder called `assets`.
-    * Inside the `assets` directory, make three additional folders: `javascript`, `css` and `images`.
-      * In the `javascript` folder, make a file called `game.js`.
-      * In the `css` folder, make a file called `style.css`.
-      * In the `css` folder, make a file called `reset.css`. Paste into it the code found from the Meyerweb Reset.
-      * In the images folder, save any of the images you plan on using.
-
-4. Push the above changes to GitHub. 
-
-5. Choose whichever game you want to make from the choices below. The CrystalsCollector game is easier than making the Star Wars RPG, but you'll get a more comprehensive review with the Star Wars exercise.
-
-### Option One: CrystalsCollector Game (Easy)
-![Crystal Collector](Images/1-CrystalCollector.jpg)
-
-1. [Watch the demo](homework_demos/crystalsCollector_demo.mp4).
-
-2. The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters. 
-
-3. Here's how the app works:
+![image](https://cloud.githubusercontent.com/assets/18251657/21795843/d0f95f4e-d6d2-11e6-9727-df8fc49bf4b3.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/21795845/d54af2f6-d6d2-11e6-8fa3-607f5907cceb.png)
+1. Here's how the app works:
 	* There will be four crystals displayed as buttons on the page.
 
 	* The player will be shown a random number at the start of the game.
@@ -49,4 +26,4 @@ In this assignment, you'll create another fun and interactive game for web brows
 ##### Game design notes:
  * The random number shown at the start of the game should be between 19 - 120.
  
- * Each crystal should have a random hidden value between 1 - 12.
+ * Each pokemon has a random hidden value between 1 - 12.
