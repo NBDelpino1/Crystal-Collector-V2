@@ -143,3 +143,6 @@ $("#charmander").click(function() {
 $("#caterpie").click(function() {
     addValues(pokemon.caterpie);
 });
+
+
+

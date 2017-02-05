@@ -1,5 +1,15 @@
 
-### Challenge: A fun and interactive game for web browsers. App must dynamically update your HTML pages with the jQuery library.
+
+#####Iteration 3
+######Desktop
+![image](https://cloud.githubusercontent.com/assets/18251657/22623130/c648c79c-eb1d-11e6-8da3-b0acb5a0780f.png)
+
+######Mobile 
+![image](https://cloud.githubusercontent.com/assets/18251657/22623134/cefffc52-eb1d-11e6-9829-90301419cae9.png)
+
+**********************
+
+##### Iteration 2
 
 ![image](https://cloud.githubusercontent.com/assets/18251657/21795843/d0f95f4e-d6d2-11e6-9727-df8fc49bf4b3.png)
 ![image](https://cloud.githubusercontent.com/assets/18251657/21795845/d54af2f6-d6d2-11e6-8fa3-607f5907cceb.png)
