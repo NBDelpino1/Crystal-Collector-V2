@@ -8,34 +8,62 @@ body {
 }
 
 
-.top-banner-container {
+.banner-container {
     padding-left:0;
     padding-right:0;
-    background: rgba(0, 0, 0, .6);
-    height:220px;
 }
 
-    #test {
-        width:100%;
-        height:200px;
+.banner-img {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+
+.banner-text {
+    position: absolute;
+    left: 0;
+    top:75px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-span {
+    color: white;
+    background: rgb(19, 95, 171); /* fallback color */
+    background: rgba(19, 95, 171, 0.7);
+    padding: 10px 25px 10px 25px;
+    word-spacing: 5px;
+    letter-spacing:2px;
+    font-family: 'Quantico', sans-serif;
+    font-size:.25em;
+}
+
+
+
+@media screen and (min-width: 480px) {
+
+    .banner-text {
+        top: 16%;
     }
 
-.banner-content {
-    background-image: url("../images/top-banner-test.png");
-    height:220px;
-    background-size: cover;
+    .banner-span {
+        font-size:2em;
+    }
 }
-/*.top-banner-img {*/
-    /*width:100%;*/
-/*}*/
 
-.main-content-container {
+
+
+
+
+
+
+.content-outer-container {
     background: #000000; /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.links {
+.links-container {
     margin-top:20px;
     margin-bottom:20px;
     font-family: 'Quantico', sans-serif;
@@ -45,7 +73,7 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-    .links {
+    .links-container {
         margin-top:50px;
         margin-bottom:50px;
     }
@@ -57,7 +85,7 @@ a {
 }
 .logo-heading {
     font-size: 1.5em;
-    color: #fff;
+    color: #135fab;
     font-family: 'Sonsie One', cursive;
 }
 
@@ -92,27 +120,20 @@ a {
 
 footer {
     text-align: center;
-    height:300px;
-    background-color: black;
-    background-image: url("../images/footer-img.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
 .media-list {
     list-style: none;
+    padding-top:30px;
+    padding-bottom:30px;
 }
+
 .media-list-item {
     display: inline;
     margin:0 15px 0 15px;
 }
 
 
-
-.media-list-container {
-    background: rgba(0, 0, 0, .6);
-    height:100%;
-    padding-top:200px;
-}
 
 
 
